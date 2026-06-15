@@ -1,0 +1,19 @@
+# Ignore local dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore git folder
+.git
+.gitignore
+
+# Ignore CI/CD configurations
+Jenkinsfile
+.dockerignore
+
+# Ignore test files and documentation not needed in production container
+test.js
+README.md
+implementation_plan.md
+task.md
+walkthrough.md
